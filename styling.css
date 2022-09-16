@@ -1,0 +1,122 @@
+:root {
+  box-sizing: border-box;
+}
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  height: 100vh;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-bottom-width: 4px;
+  border-right-width: 8px;
+  border-color: black;
+  box-shadow: 10px 10px 5px lightblue;
+  margin-top: 1.25rem; /* 20px */
+  margin-bottom: 1.25rem; /* 20px */
+  margin-left: 1.25rem; /* 20px */
+  margin-right: 20px; /*  */
+  
+}
+
+/* Set additional styling options for the columns*/
+.column {
+  float: left;
+  width: 50%;
+  }
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+  border: 3px  blanchedalmond;
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  margin-left: 2.5rem; /* 40px */
+  margin-right: 2.5rem; /* 40px */
+
+}
+.isolir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 3px solid blanchedalmond;
+  width: auto;
+  height: 150px;
+  text-align: center;
+  margin-left: 2.5rem; /* 40px */
+  margin-right: 2.5rem; /* 40px */
+  border-top-left-radius: 1.5rem; /* 24px */
+  border-top-right-radius: 1.5rem; /* 24px */
+  background-color: rgb(239 68 68);
+  font-size: 8rem; /* 128px */
+  line-height: 1;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+  background-color: purple;
+  width: 120%;
+  height: 12px;
+  border-top: 1px solid black
+}
+
+.awal {
+  height: 110vh;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-bottom-width: 4px;
+  border-right-width: 8px;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 10px 10px;
+  margin-top: 1.25rem; /* 20px */
+  margin-bottom: 1.25rem; /* 20px */
+  margin-left: 1.25rem; /* 20px */
+  margin-right: 20px; /*  */
+  border-style: solid; 
+  border-radius: 1.5rem; /* 24px */
+  padding-top: 1.25rem; /* 20px */
+  padding-bottom: 1.25rem; /* 20px */
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);  
+  background-size: contain;
+
+  
+}
+
+.logo {
+  display: flex;
+  border: 3px  blanchedalmond;
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  margin-top: 0.3rem;
+  margin-left: 2.5rem; /* 40px */
+  margin-right: 3.5rem; /* 40px */
+
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+  border: 3px  blanchedalmond;
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  margin-left: 2.5rem; /* 40px */
+  margin-right: 2.5rem; /* 40px */
+
+}
